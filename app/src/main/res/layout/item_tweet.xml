@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp">
+    android:layout_margin="5dp"
+    android:background="#243447">
 
     <ImageView
         android:id="@+id/ivProfileImage"
@@ -25,6 +26,8 @@
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         android:fontFamily="@font/roboto_light"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
         tools:text="@markymauro" />
 
     <TextView
@@ -36,5 +39,7 @@
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         android:fontFamily="@font/roboto"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
         tools:text="This is my tweet!" />
 </RelativeLayout>
